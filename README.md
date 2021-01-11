@@ -4,8 +4,8 @@ Octopress (Jekyll) plugin to show [github-readme-stats](https://github.com/anura
 ## Installation
 
 * HTML:
-    * Copy **source/_includes/custom/asides/github-readme-stats.html** to your **source/_includes/custom/asides/**.
-    * Or you can put codes in **github-readme-stats.html** anywhere you like.
+    * Copy **source/_includes/custom/asides/github_readme_stats.html** to your **source/_includes/custom/asides/**.
+    * Or you can put codes in **github_readme_stats.html** anywhere you like.
 
 ## Usage
 
