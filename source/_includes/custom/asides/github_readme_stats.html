@@ -1,9 +1,9 @@
 <section class="group">
 <h2>GitHub Stats</h2>
-{%if site.github_readme_stats_stats%}
+{% if site.github_readme_stats_stats %}
 <a href="//github.com/{{site.github_user}}"><img alt="{{site.github_user}}'s GitHub stats" src="//github-readme-stats.vercel.app/api?username={{site.github_user}}&theme={{site.github_readme_stats_theme}}&show_icons={{site.github_readme_stats_icons}}&count_private={{site.github_readme_stats_private}}"></a>
-{%endif%}
-{%if site.github_readme_stats_lang%}
+{% endif %}
+{% if site.github_readme_stats_lang %}
 <a href="//github.com/{{site.github_user}}"><img alt="Top langs" src="//github-readme-stats.vercel.app/api/top-langs/?username={{site.github_user}}&layout=compact&langs_count={{site.github_readme_stats_lang_count}}&exclude_repo={{site.github_readme_stats_exclude_repo}}"></a>
-{%endif%}
+{% endif %}
 </section>
